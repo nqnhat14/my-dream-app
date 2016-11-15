@@ -1,0 +1,26 @@
+<div class="portlet light bordered">
+  <div class="portlet-title">
+    <div class="caption">
+      <i class="icon-bar-chart font-green-haze"></i>
+      <span class="caption-subject bold uppercase font-green-haze">Top Category</span>
+    </div>
+  </div>
+  <div class="portlet-body">
+    <table class="table table-bordered">
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th></th>
+      </tr>
+      <tr *ngFor="let item of topCategories; let i = index">
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>
+          <a class="btn green btn-outline btn-mini btn-default" [routerLink]="['../',item.id,'edit']">Edit</a>
+          <a class="btn blue btn-outline btn-mini btn-default" [routerLink]="['../',item.id,'detail']">Detail</a>
+          <button class="btn red btn-outline btn-mini btn-default" (click)="delete(item.id,i)">Delete</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

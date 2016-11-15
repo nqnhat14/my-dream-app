@@ -1,0 +1,60 @@
+ary>
+            Bitwise shift to left (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.ShiftRight">
+      <summary>
+            Bitwise shit to right (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Negate">
+      <summary>
+            Bitwise negation (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.SafeCast">
+      <summary>
+            Safe cast (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" /> where <see cref="P:PostSharp.Reflection.Syntax.IExpression.ReturnType" /> is the destination type).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Unbox">
+      <summary>
+            Unbox (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Throw">
+      <summary>
+            Throw exception (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Field">
+      <summary>
+            Field (<see cref="T:PostSharp.Reflection.Syntax.IFieldExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Box">
+      <summary>
+            Box (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.NewArray">
+      <summary>
+            Create new array (<see cref="T:PostSharp.Reflection.Syntax.INewArrayExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.TypedReferenceValue">
+      <summary>
+            Get value of typed reference (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.CheckFinite">
+      <summary>
+            Check that the value is finite (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.MakeTypedReference">
+      <summary>
+            Make typed reference (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:Post

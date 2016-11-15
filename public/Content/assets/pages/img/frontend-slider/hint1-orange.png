@@ -1,0 +1,60 @@
+(<see cref="T:PostSharp.Reflection.Syntax.IInitBufferExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.LoadToken">
+      <summary>
+            Load metadata token (<see cref="T:PostSharp.Reflection.Syntax.IMetadataExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.SizeOf">
+      <summary>
+            Size of type (<see cref="T:PostSharp.Reflection.Syntax.IMetadataExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.TypedReferenceType">
+      <summary>
+            Get type of typed reference (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.ConvertChecked">
+      <summary>
+            Convert to integral type with overflow check (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Convert">
+      <summary>
+            Convert to integral type (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.MethodCall">
+      <summary>
+            Method call (<see cref="T:PostSharp.Reflection.Syntax.IMethodCallExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Return">
+      <summary>
+            Return (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.NewObject">
+      <summary>
+            Creates new object (<see cref="T:PostSharp.Reflection.Syntax.INewObjectExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Switch">
+      <summary>
+            Switch (<see cref="T:PostSharp.Reflection.Syntax.ISwitchExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Block">
+      <summary>
+            Instruction block (<see cref="T:PostSharp.Reflection.Syntax.IBlockExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.CatchHandler">
+      <summary>
+            Catch exception handler (<see cref="T:PostSharp.Reflection.Syntax.ISyntaxExceptionHandler" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.FilterHandler">
+      <summa

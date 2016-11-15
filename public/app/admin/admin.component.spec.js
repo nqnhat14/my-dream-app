@@ -1,0 +1,11 @@
+/* tslint:disable:no-unused-variable */
+"use strict";
+const admin_component_1 = require('./admin.component');
+describe('Component: Admin', () => {
+    it('should create an instance', () => {
+        let component = new admin_component_1.AdminComponent();
+        expect(component).toBeTruthy();
+    });
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFkbWluL2FkbWluLmNvbXBvbmVudC5zcGVjLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHVDQUF1Qzs7QUFHdkMsa0NBQStCLG1CQUFtQixDQUFDLENBQUE7QUFFbkQsUUFBUSxDQUFDLGtCQUFrQixFQUFFO0lBQzNCLEVBQUUsQ0FBQywyQkFBMkIsRUFBRTtRQUM5QixJQUFJLFNBQVMsR0FBRyxJQUFJLGdDQUFjLEVBQUUsQ0FBQztRQUNyQyxNQUFNLENBQUMsU0FBUyxDQUFDLENBQUMsVUFBVSxFQUFFLENBQUM7SUFDakMsQ0FBQyxDQUFDLENBQUM7QUFDTCxDQUFDLENBQUMsQ0FBQyIsImZpbGUiOiJhZG1pbi9hZG1pbi5jb21wb25lbnQuc3BlYy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIHRzbGludDpkaXNhYmxlOm5vLXVudXNlZC12YXJpYWJsZSAqL1xuXG5pbXBvcnQgeyBUZXN0QmVkLCBhc3luYyB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUvdGVzdGluZyc7XG5pbXBvcnQgeyBBZG1pbkNvbXBvbmVudCB9IGZyb20gJy4vYWRtaW4uY29tcG9uZW50JztcblxuZGVzY3JpYmUoJ0NvbXBvbmVudDogQWRtaW4nLCAoKSA9PiB7XG4gIGl0KCdzaG91bGQgY3JlYXRlIGFuIGluc3RhbmNlJywgKCkgPT4ge1xuICAgIGxldCBjb21wb25lbnQgPSBuZXcgQWRtaW5Db21wb25lbnQoKTtcbiAgICBleHBlY3QoY29tcG9uZW50KS50b0JlVHJ1dGh5KCk7XG4gIH0pO1xufSk7XG4iXX0=

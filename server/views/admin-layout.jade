@@ -1,0 +1,15 @@
+//
+   Created by nqnha on 10/31/2016.
+doctype html
+html(lang='en',class="no-js")
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width')
+    title= title
+    base(href="/")
+    include admin-style
+  body(class="page-header-fixed page-sidebar-closed-hide-logo page-content-white")
+    block content
+    include admin-script
+    script.
+      System.import('app');

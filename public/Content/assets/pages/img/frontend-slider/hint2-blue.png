@@ -1,0 +1,56 @@
+
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Modulo">
+      <summary>
+            Modulo (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.MultiplyChecked">
+      <summary>
+            Multiply with overflow checking (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Multiply">
+      <summary>
+            Multiply (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.GreaterThan">
+      <summary>
+            Greater than (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.GreaterThanOrEqual">
+      <summary>
+            Greater than (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Substract">
+      <summary>
+            Substract (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.SubstractChecked">
+      <summary>
+            Substract with overflow checking (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Parameter">
+      <summary>
+            Parameter (<see cref="T:PostSharp.Reflection.Syntax.IParameterExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.This">
+      <summary>
+            Current object (<c>this</c> keyword in C#, <see cref="T:PostSharp.Reflection.Syntax.IZeroaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.AddressOf">
+      <summary>
+            Referencing operator (<c>&amp;</c> in C#, see <see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Constant">
+      <summary>
+            Constant (<see cref="T:PostSharp.Reflection.Syntax.IConstantExpressi

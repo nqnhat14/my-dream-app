@@ -1,0 +1,58 @@
+presents a local variable.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxLocalVariable.Name">
+      <summary>
+            Gets the name of the local variable.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxLocalVariable.Slot">
+      <summary>
+            Gets the ordinal of the local variable.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxLocalVariable.VariableType">
+      <summary>
+            Gets the type of the local variable.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.ISyntaxMethodBody">
+      <summary>
+            Represents the body of a method.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxMethodBody.Method">
+      <summary>
+            Gets the method whose body is represented by the current object.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxMethodBody.RootBlock">
+      <summary>
+            Gets the root instruction block of the method.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.ISyntaxReflectionService">
+      <summary>
+            Service that exposes the method <see cref="M:PostSharp.Reflection.Syntax.ISyntaxReflectionService.GetMethodBody(System.Reflection.MethodBase,PostSharp.Reflection.Syntax.SyntaxAbstractionLevel)" />, which allows to decompile
+            a method and get a AST representation.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.ISyntaxReflectionService.GetMethodBody(System.Reflection.MethodBase,PostSharp.Reflection.Syntax.SyntaxAbstractionLevel)">
+      <summary>
+            Decompiles a method and gets an AST representation of it.
+            </summary>
+      <param name="method">The method to decompile.</param>
+      <param name="abstractionLevel">The required level of abstraction and detail.</param>
+      <returns>AST representing the <paramref name="method" /> at the required level of abstraction and detail.</returns>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.IUnaryExpression">
+      <summary>
+            Represents an expression with a single operand.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.IUnaryExpression.Value">
+      <summary>
+            Operand of the unary expression.
+            </summary>
+    </member>
+    <member name="T:Post

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>PostSharp</name>
+  </assembly>
+  <members>
+    <member name="T:PostSharp.IgnoreWarningAttribute">
+      <summary>
+            Instructs PostSharp to ignore warnings and information messages. Errors cannot be ignored.
+            </summary>
+    </member>
+    <member name="M:PostSharp.IgnoreWarningAttribute.#ctor(System.String)">
+      <summary>
+            Creates a new instance of <see cref="T:PostSharp.IgnoreWarningAttribute" />.
+            </summary>
+      <param name="messageId">Identifier of the ignored warning.</param>
+    </member>
+    <member name="P:PostSharp.IgnoreWarningAttribute.MessageId">
+      <summary>
+            Gets the identifier of the ignored warning.
+            </summary>
+    </member>
+    <member name="P:PostSharp.IgnoreWarningAttribute.Reason">
+      <summary>
+            Gets or set the reason (a human-readable text) why the warning must be ignored.
+            </summary>
+    </member>
+    <member name="T:PostSharp.MessageLocation">
+      <summary>
+            Represents the location of a message, which means, for the end-user, a line in a file of source code.
+            From the aspect developer, the location can be known as an object representing an element of code
+            (for instance a <see cref="T:System.Type" /> or <see cref="T:System.Reflection.MethodInfo" />). Such implicit locations are resolved
+            by PostSharp to a file and line number.
+            </summary>
+    </member>
+    <member name="P:PostSharp.MessageLocation.CodeElement">
+      <summary>
+            Element of code (reflection object or <c>Declaration</c>) from which the location must be resolved.
+            </summary>
+    </member>
+    <member name="P:PostSharp.MessageLocation.EndColumn">
+      <summary>
+              Gets the ending column in the file that caused the
+              message.
+            </summary>
+    </member>
+    <member name="P:PostSharp.MessageLocation.EndLine">
+      <summary>
+              Gets the ending line in the file that caused the message.
+            </summary>
+    </member>
+    <member name="M:PostSharp.MessageLocation.Explicit(System.String)">
+      <summary>
+            Builds a <see cref="T:PostSharp.MessageLocation" /> explicitly by specifying a filename, when the
+            </summary>
+      <param name="file">File name.</param>
+      <returns>A <see cref="T:PostSharp.MessageLocation" />.</returns>
+    </member>
+    <member name="M:PostSharp.MessageLocation.Explicit(System.String,System.Int32,System.Int32)">
+      <summary>
+            Builds a <see cref="T:PostSharp.MessageLocation" /> explicitly by specifying a filename, line, and column.
+            </summary>
+      <param name="file">File name.</param>
+      <param name="line">Line number.</param>
+      <param name="column">Column number.</param>
+      <returns>A <see cref="T:PostSharp.MessageLocation" />.</returns>
+    </member>
+    <member name="M:PostSharp.MessageLocation.Explicit(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Builds a <see cref="T:PostSharp.MessageLocation" /> explicitly by specifying a filename, line, and column.
+            </summary>
+      <param name="file">File name.</param>
+      <param name="lineStart">Starting line number.</param>
+      <param name="columnStart">Starting column number.</param>
+      <param name="lineEnd">Ending line number.</param>
+      <param name="columnEnd">Ending column number.</param>
+      <returns>A <see cref="T:PostSharp.MessageLocation" />.</returns>
+    </member>
+    <member name="P:PostSharp.MessageLocation.File">
+      <summary>
+              Gets the name of the file that caused the message.
+            </summary>
+    </member>
+    <member name="M:PostSharp.MessageLocation.Of(PostSharp.Reflection.LocationInfo)">
+      <summary>
+            Builds a <see cref="T:PostSharp.MessageLocation" /> from a <see cref="T:PostSharp.Reflection.LocationInfo" />.
+            </summary>
+      <param name="location">A <see cref="T:PostSharp.Reflection.LocationInfo" />.</param>
+      <returns>A <see cref="T:PostSharp.MessageLocation" />.</returns>
+    </member>
+    <member name="M:PostSharp.MessageLocation.Of(PostSharp.Reflection.SymbolSequencePoint)">
+      <summary>
+            Builds a <see cref="T:PostSharp.MessageLocation" /> from a <see cref="T:PostSharp.Reflection.SymbolSequencePoint" />.
+            </summary>
+      <param name="symbolSequencePoint">A <see cref="T:PostSharp.Reflection.SymbolSequencePoint" />.</param>
+      <returns>A <see cref="T:PostSharp.MessageLocation" /> corresponding to <paramref name="symbolSequencePoint" />.</returns>
+    </member>
+    <member name="M:PostSharp.MessageLocation.Of(PostSharp.Reflection.Syntax.IExpression)">
+      <summary>
+            Builds a <see cref="T:PostSharp.MessageLocation" /> from an <see cref="T:PostSharp.Reflection.Syntax.IExpression" />.
+            </summary>
+      <param name="expression">An <see cref="T:PostSharp.Reflection.Syntax.IExpression" />.</param>
+      <returns>A <see cref="T:PostSharp.MessageLocation" />.</returns>

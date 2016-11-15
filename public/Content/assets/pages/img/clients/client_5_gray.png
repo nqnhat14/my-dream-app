@@ -1,0 +1,43 @@
+p.Reflection.Syntax.SyntaxTreeVisitor.VisitNewObjectExpression(PostSharp.Reflection.Syntax.INewObjectExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.INewObjectExpression" />  and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitParameterExpression(PostSharp.Reflection.Syntax.IParameterExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IParameterExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitStatementExpression(PostSharp.Reflection.Syntax.IStatementExpression)">
+      <summary>
+            Visits an instruction block and, recursively, all syntax nodes.
+            </summary>
+      <param name="statementExpression">The statement to be visited.</param>
+      <returns>
+        <paramref name="statementExpression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitSwitchExpression(PostSharp.Reflection.Syntax.ISwitchExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.ISwitchExpression" />  and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitSyntaxElement(PostSharp.Reflection.Syntax.ISyntaxElement)">
+      <summary>
+            Visits a syntax element and, recursively, all children elements.
+            </summary>
+      <param name="syntaxElement">The element to be visited.</param>
+      <returns>
+        <paramref name="syntaxElement" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitUnaryExpression(PostSharp.Reflection.Syntax.IUnaryExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.R

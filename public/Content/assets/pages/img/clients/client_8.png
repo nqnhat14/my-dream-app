@@ -1,0 +1,68 @@
+FieldExpression)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitGotoExpression(PostSharp.Reflection.Syntax.IGotoExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IGotoExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitInitBufferExpression(PostSharp.Reflection.Syntax.IInitBufferExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IInitBufferExpression" /> and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitLocalVariable(PostSharp.Reflection.Syntax.ISyntaxLocalVariable)">
+      <summary>
+            Visits a local variable definition.
+            </summary>
+      <param name="localVariable">The local variable to be visited.</param>
+      <returns>
+        <paramref name="localVariable" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitMetadataExpression(PostSharp.Reflection.Syntax.IMetadataExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IMetadataExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitMethodBody(PostSharp.Reflection.Syntax.ISyntaxMethodBody)">
+      <summary>
+            Visits a method body and, recursively, all syntax nodes.
+            </summary>
+      <param name="methodBody">The method body to be visited.</param>
+      <returns>
+        <paramref name="methodBody" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitMethodCallExpression(PostSharp.Reflection.Syntax.IMethodCallExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IMethodCallExpression" />  and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitMethodPointerExpression(PostSharp.Reflection.Syntax.IMethodPointerExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IMethodPointerExpression" />  and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitNewArrayExpression(PostSharp.Reflection.Syntax.INewArrayExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.INewArrayExpression" />  and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the overr

@@ -1,0 +1,54 @@
+e="T:PostSharp.Reflection.Syntax.SyntaxAbstractionLevel">
+      <summary>
+            Enumerates the level of abstraction and the level of details produced by the AST decompiler.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxAbstractionLevel.Structure">
+      <summary>
+            Returns only the block structure (exception handlers).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxAbstractionLevel.ExpressionTree">
+      <summary>
+            Returns the expression tree.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.SyntaxElementKind">
+      <summary>
+            Enumeration of kinds of syntax elements (<see cref="T:PostSharp.Reflection.Syntax.ISyntaxElement" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Add">
+      <summary>
+            Addition (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.AddChecked">
+      <summary>
+            Addition with overflow checking (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.And">
+      <summary>
+            Bitwise <c>And</c> (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.ArrayIndex">
+      <summary>
+            Element of an array (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" /> where <see cref="P:PostSharp.Reflection.Syntax.IBinaryExpression.Left" /> is the
+            array and <see cref="P:PostSharp.Reflection.Syntax.IBinaryExpression.Right" /> is the index).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.ArrayLength">
+      <summary>
+            Length of an array (<see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Assign">
+      <summary>
+            Assignment (<see cref="T:PostSharp.Reflection.Syntax.IBinaryExpression" />).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Reflection.Syntax.SyntaxElementKind.Goto">
+      <summary>
+            Unconditional branch (<see cref="T:PostSharp.Reflection.Syntax.IG

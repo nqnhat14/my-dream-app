@@ -1,0 +1,80 @@
+encyAction.Commute" />).
+            </summary>
+    </member>
+    <member name="P:PostSharp.Aspects.Dependencies.AspectDependencyAttribute.IsWarning">
+      <summary>
+              If <c>true</c>, specifies that the constraint (of type <see cref="F:PostSharp.Aspects.Dependencies.AspectDependencyAction.Require" />
+              or <see cref="F:PostSharp.Aspects.Dependencies.AspectDependencyAction.Conflict" />) should emit a warning instead of an error if not
+              respected.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Aspects.Dependencies.AspectDependencyAttribute.Position">
+      <summary>
+              Gets the position of the current dependency, i.e. actually the position of the <i>other</i>
+              aspect or advices with respect to the one related to this dependency.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Aspects.Dependencies.AspectDependencyAttribute.Target">
+      <summary>
+              Determines the target (<see cref="F:PostSharp.Aspects.Dependencies.AspectDependencyTarget.Default" /> or <see cref="F:PostSharp.Aspects.Dependencies.AspectDependencyTarget.Type" />)
+              to which the aspect dependency apply.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Aspects.Dependencies.AspectDependencyAttribute.TargetType">
+      <summary>
+              Aspect type to which this dependency applies. This property is required when the
+              custom attribute is applied at assembly level. It is ignored when applied on
+              class or method level.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Aspects.Dependencies.AspectDependencyAttributeCollection">
+      <summary>
+              Collection of <see cref="T:PostSharp.Aspects.Dependencies.AspectDependencyAttribute" />.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Aspects.Dependencies.AspectDependencyAttributeCollection.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Aspects.Dependencies.AspectDependencyAttributeCollection</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:PostSharp.Aspects.Dependencies.AspectDependencyPosition">
+      <summary>
+              Enumeration of the direction of the relationship specified by an aspect dependency.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Aspects.Dependencies.AspectDependencyPosition.Any">
+      <summary>
+              Any order possible (or order not relevant).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Aspects.Dependencies.AspectDependencyPosition.Before">
+      <summary>
+              The current aspect or advice is positioned before the other aspect or handler.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Aspects.Dependencies.AspectDependencyPosition.After">
+      <summary>
+              The current aspect or advice is positioned after the other aspect or handler.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Aspects.Dependencies.AspectDependencyTarget">
+      <summary>
+              Enumeration of targets (<see cref="F:PostSharp.Aspects.Dependencies.AspectDependencyTarget.Default" /> or <see cref="F:PostSharp.Aspects.Dependencies.AspectDependencyTarget.Type" />)
+              to which the aspect dependency apply.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Aspects.Dependencies.AspectDependencyTarget.Default">
+      <summary>
+              Natural target of the aspect.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Aspects.Dependencies.AspectDependencyTarget.Type">
+      <summary>
+              Declaring type of the natural target of the aspect.
+            </summary>
+    </member>
+    <member n

@@ -1,0 +1,63 @@
+quenceExpression.Successors">
+      <summary>
+            Gets the list of sequences to which the current sequence branch.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.IStatementExpression">
+      <summary>
+            Represents a statement. A statement is the root of an expression tree.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.IStatementExpression.Expression">
+      <summary>
+            Expression evaluated by the statement.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.IStatementExpression.NextSibling">
+      <summary>
+            Gets a next sibling of the current expression within <see cref="T:PostSharp.Reflection.Syntax.IBlockExpression" />.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.IStatementExpression.PreviousSibling">
+      <summary>
+            Gets a previous sibling of the current expression within <see cref="T:PostSharp.Reflection.Syntax.IBlockExpression" />.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.ISwitchExpression">
+      <summary>
+            Expression that represent a switch (conditional statement with multiple branches).
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISwitchExpression.Condition">
+      <summary>
+            Gets the condition expression.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISwitchExpression.Targets">
+      <summary>
+            Gets the list of target blocks.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.ISyntaxElement">
+      <summary>
+            Represents an element of the syntax tree representing a method body.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxElement.ParentElement">
+      <summary>
+            Gets the parent element in the tree.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxElement.ParentMethodBody">
+      <summary>
+            Gets the parent method body.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Reflection.Syntax.ISyntaxElement.SyntaxElementKind">
+      <summary>
+            Gets the kind of syntax element.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Reflection.Syntax.ISyntaxExceptionHandler">
+      <summary>
+            Represents an exception handle

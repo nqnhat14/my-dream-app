@@ -1,0 +1,228 @@
+﻿.spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% !important;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0);
+    }
+
+    50% {
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+#preview-area {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 60px;
+    right: 0;
+    margin: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#dvLoading {
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: relative;
+}
+
+.field-validation-error {
+    color: #e73d4a;
+}
+
+.input-validation-error {
+    border-color: #e73d4a !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.flag-icon {
+    font-size: 17px !important;
+}
+
+.nav-item .selected_child a {
+    color: white !important;
+}
+
+.badge-danger {
+    background-color: #ed6b75 !important;
+}
+
+.label-checkbox {
+    padding-top: 0px !important;
+}
+/*MAGNIFIC POPUP*/
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+    /* overlay animate in */
+    .mfp-fade.mfp-bg.mfp-ready {
+        opacity: 0.8;
+    }
+    /* overlay animate out */
+    .mfp-fade.mfp-bg.mfp-removing {
+        opacity: 0;
+    }
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+/*END MAGNIFIC POPUP*/
+.template-download img {
+    width: 200px;
+}
+
+.display-image {
+    width: 50px;
+}
+
+.page-logo a:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.logo-text-admin {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px !important;
+}
+
+.logo-text {
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    padding-top: 28px;
+    padding-bottom: 27px;
+}
+
+    .logo-text:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.logo-text-first {
+    color: #e94d1c;
+}
+
+.logo-text-second {
+    color: #4b77be;
+}
+
+.logo-text a:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.cbp-item {
+    background: #fff;
+}
+
+.cbp-item-wrapper {
+    padding: 15px;
+}
+
+.cbp-caption :hover {
+    opacity: 0.5 !important;
+}
+
+.cbp-item:hover {
+    box-shadow: 5px 5px rgba(234, 234, 234, 0.9);
+}
+
+.pi-price {
+    font-weight: bold;
+}
+
+.product-quantity-lg {
+    height: 45px;
+    width: 65px;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.scroll-to-top {
+    background: url(../assets/corporate/img/up.png);
+    width: 40px;
+    height: 40px;
+}
+
+.notification-bar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.login-options span {
+    float: left;
+    font-size: 15px;
+    margin-right: 15px;
+}
+table.center th,table.center td {
+    text-align: center;
+}
+.breadcrumb{
+  border:none !important;
+}

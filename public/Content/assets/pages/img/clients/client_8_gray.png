@@ -1,0 +1,69 @@
+sitor.VisitBinaryExpression(PostSharp.Reflection.Syntax.IBinaryExpression)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitBlockExpression(PostSharp.Reflection.Syntax.IBlockExpression)">
+      <summary>
+            Visits an instruction block and, recursively, all syntax nodes.
+            </summary>
+      <param name="instructionBlock">The method body to be visited.</param>
+      <returns>
+        <paramref name="instructionBlock" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitConditionalExpression(PostSharp.Reflection.Syntax.IConditionalExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IUnaryExpression" /> and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitConditionalExpression(PostSharp.Reflection.Syntax.IConditionalExpression)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitConstantExpression(PostSharp.Reflection.Syntax.IConstantExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IGotoExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitConstantExpression(PostSharp.Reflection.Syntax.IConstantExpression)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitCopyBufferExpression(PostSharp.Reflection.Syntax.ICopyBufferExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.ICopyBufferExpression" /> and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitCopyBufferExpression(PostSharp.Reflection.Syntax.ICopyBufferExpression)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitExceptionHandler(PostSharp.Reflection.Syntax.ISyntaxExceptionHandler)">
+      <summary>
+            Visits an exception handler and, recursively, the <see cref="P:PostSharp.Reflection.Syntax.ISyntaxExceptionHandler.HandlerBlock" /> and <see cref="P:PostSharp.Reflection.Syntax.ISyntaxExceptionHandler.FilterBlock" />
+            (if any).
+            </summary>
+      <param name="exceptionHandler">The exception handler to be visited.</param>
+      <returns>
+        <paramref name="exceptionHandler" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeVisitor.VisitFieldExpression(PostSharp.Reflection.Syntax.IFieldExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IFieldExpression" />.
+            </summary>
+      <param name="expression">The el

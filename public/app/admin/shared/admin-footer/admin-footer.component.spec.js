@@ -1,0 +1,11 @@
+/* tslint:disable:no-unused-variable */
+"use strict";
+const admin_footer_component_1 = require('./admin-footer.component');
+describe('Component: AdminFooter', () => {
+    it('should create an instance', () => {
+        let component = new admin_footer_component_1.AdminFooterComponent();
+        expect(component).toBeTruthy();
+    });
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFkbWluL3NoYXJlZC9hZG1pbi1mb290ZXIvYWRtaW4tZm9vdGVyLmNvbXBvbmVudC5zcGVjLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHVDQUF1Qzs7QUFHdkMseUNBQXFDLDBCQUEwQixDQUFDLENBQUE7QUFFaEUsUUFBUSxDQUFDLHdCQUF3QixFQUFFO0lBQ2pDLEVBQUUsQ0FBQywyQkFBMkIsRUFBRTtRQUM5QixJQUFJLFNBQVMsR0FBRyxJQUFJLDZDQUFvQixFQUFFLENBQUM7UUFDM0MsTUFBTSxDQUFDLFNBQVMsQ0FBQyxDQUFDLFVBQVUsRUFBRSxDQUFDO0lBQ2pDLENBQUMsQ0FBQyxDQUFDO0FBQ0wsQ0FBQyxDQUFDLENBQUMiLCJmaWxlIjoiYWRtaW4vc2hhcmVkL2FkbWluLWZvb3Rlci9hZG1pbi1mb290ZXIuY29tcG9uZW50LnNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiB0c2xpbnQ6ZGlzYWJsZTpuby11bnVzZWQtdmFyaWFibGUgKi9cblxuaW1wb3J0IHsgVGVzdEJlZCwgYXN5bmMgfSBmcm9tICdAYW5ndWxhci9jb3JlL3Rlc3RpbmcnO1xuaW1wb3J0IHsgQWRtaW5Gb290ZXJDb21wb25lbnQgfSBmcm9tICcuL2FkbWluLWZvb3Rlci5jb21wb25lbnQnO1xuXG5kZXNjcmliZSgnQ29tcG9uZW50OiBBZG1pbkZvb3RlcicsICgpID0+IHtcbiAgaXQoJ3Nob3VsZCBjcmVhdGUgYW4gaW5zdGFuY2UnLCAoKSA9PiB7XG4gICAgbGV0IGNvbXBvbmVudCA9IG5ldyBBZG1pbkZvb3RlckNvbXBvbmVudCgpO1xuICAgIGV4cGVjdChjb21wb25lbnQpLnRvQmVUcnV0aHkoKTtcbiAgfSk7XG59KTtcbiJdfQ==

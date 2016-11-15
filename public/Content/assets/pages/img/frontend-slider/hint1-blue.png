@@ -1,0 +1,46 @@
+ handler and, recursively, the <see cref="P:PostSharp.Reflection.Syntax.ISyntaxExceptionHandler.HandlerBlock" /> and <see cref="P:PostSharp.Reflection.Syntax.ISyntaxExceptionHandler.FilterBlock" />
+            (if any).
+            </summary>
+      <param name="exceptionHandler">The exception handler to be visited.</param>
+      <returns>
+        <paramref name="exceptionHandler" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeFormatter.VisitFieldExpression(PostSharp.Reflection.Syntax.IFieldExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IFieldExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Reflection.Syntax.SyntaxTreeFormatter.VisitFieldExpression(PostSharp.Reflection.Syntax.IFieldExpression)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeFormatter.VisitGotoExpression(PostSharp.Reflection.Syntax.IGotoExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IGotoExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeFormatter.VisitInitBufferExpression(PostSharp.Reflection.Syntax.IInitBufferExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IInitBufferExpression" /> and, recursively, all children elements.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeFormatter.VisitMetadataExpression(PostSharp.Reflection.Syntax.IMetadataExpression)">
+      <summary>
+            Visits an expression of type <see cref="T:PostSharp.Reflection.Syntax.IMetadataExpression" />.
+            </summary>
+      <param name="expression">The element to be visited.</param>
+      <returns>
+        <paramref name="expression" />, unless the override returns something else.</returns>
+    </member>
+    <member name="M:PostSharp.Reflection.Syntax.SyntaxTreeFormatter.VisitMethodCallExpression(PostSharp.Reflection.Syntax.IMethodCall
