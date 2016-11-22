@@ -4,8 +4,13 @@
       <i class="icon-bar-chart font-green-haze"></i>
       <span class="caption-subject bold uppercase font-green-haze">Top Category</span>
     </div>
+
   </div>
   <div class="portlet-body">
+    <div>
+      <a [routerLink]="['../create']" class="btn btn-primary">Create</a>
+    </div>
+    <br>
     <table class="table table-bordered">
       <tr>
         <th>Id</th>
@@ -17,7 +22,6 @@
         <td>{{item.name}}</td>
         <td>
           <a class="btn green btn-outline btn-mini btn-default" [routerLink]="['../',item.id,'edit']">Edit</a>
-          <a class="btn blue btn-outline btn-mini btn-default" [routerLink]="['../',item.id,'detail']">Detail</a>
           <button class="btn red btn-outline btn-mini btn-default" (click)="delete(item.id,i)">Delete</button>
         </td>
       </tr>

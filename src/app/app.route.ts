@@ -14,6 +14,7 @@ import {ProductComponent} from "./admin/product/product.component";
 import {TopCategoryListComponent} from "./admin/top-category/top-category-list/top-category-list.component";
 import {TopCategoryDetailComponent} from "./admin/top-category/top-category-detail/top-category-detail.component";
 import {TopCategoryEditComponent} from "./admin/top-category/top-category-edit/top-category-edit.component";
+import {TopCategoryCreateComponent} from "./admin/top-category/top-category-create/top-category-create.component";
 /**
  * Created by My-PC on 10/12/2016.
  */
@@ -63,9 +64,10 @@ const routes:Routes = [
       { path: 'topcategory',
         component: TopCategoryComponent,
         children:[
-          {path:'list',component:TopCategoryListComponent},
+          {path:'',component:TopCategoryListComponent},
+          {path:'list',name:'List',component:TopCategoryListComponent},
+          {path:'create',component:TopCategoryCreateComponent},
           {path:':id/edit',component:TopCategoryEditComponent},
-          {path:':id/detail',component:TopCategoryDetailComponent}
         ]
       },
       { path: 'category', component: CategoryComponent,caseInsensitiveMatch: true },

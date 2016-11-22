@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {HttpModule, Http} from '@angular/http';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import {routing} from "./app.route";
@@ -25,8 +25,8 @@ import { CategoryComponent } from './admin/category/category.component';
 import { ProductComponent } from './admin/product/product.component';
 import {TopCategoryService} from "./admin/services/top-category-service.service";
 import { TopCategoryListComponent } from './admin/top-category/top-category-list/top-category-list.component';
-import { TopCategoryDetailComponent } from './admin/top-category/top-category-detail/top-category-detail.component';
 import { TopCategoryEditComponent } from './admin/top-category/top-category-edit/top-category-edit.component';
+import { TopCategoryCreateComponent } from './admin/top-category/top-category-create/top-category-create.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,8 +48,8 @@ import { TopCategoryEditComponent } from './admin/top-category/top-category-edit
     CategoryComponent,
     ProductComponent,
     TopCategoryListComponent,
-    TopCategoryDetailComponent,
     TopCategoryEditComponent,
+    TopCategoryCreateComponent,
   ],
   imports: [
     BrowserModule,

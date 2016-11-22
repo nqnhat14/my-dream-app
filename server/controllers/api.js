@@ -40,5 +40,9 @@ router.get('/message',function(req,res,next){
 });
 /*ADMIN API*/
 router.get('/admin/topCategories',topCategoryService.getTopCategories);
+router.post('/admin/topCategories',topCategoryService.createTopCategory);
 router.delete('/admin/topCategories/:id',topCategoryService.deleteTopCategory);
+router.get('/admin/topCategories/checkNameExist',topCategoryService.checkNameExist);
+router.get('/admin/topCategories/:id',topCategoryService.getTopCategory);
+router.put('/admin/topCategories',topCategoryService.updateTopCategory);
 
